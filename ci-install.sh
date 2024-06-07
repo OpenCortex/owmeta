@@ -1,5 +1,12 @@
 #!/bin/sh -ex
 
+# Temporary test with latest owmeta-core dev
+git clone https://github.com/openworm/owmeta-core
+cd owmeta-core
+pip install .
+
+pip list
+
 pip install -e .
 pip install coveralls
 pip install -r test-requirements.txt
