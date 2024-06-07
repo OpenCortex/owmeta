@@ -4,6 +4,7 @@
 git clone https://github.com/openworm/owmeta-core
 cd owmeta-core
 pip install .
+cd ..
 
 pip list
 
